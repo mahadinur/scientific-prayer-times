@@ -7,8 +7,11 @@
     <title>Document</title>
     <script src="index.js"></script>
     <style>
-        table {
+        * {
             font-family: arial, sans-serif;
+        }
+
+        table {
             border-collapse: collapse;
             width: 100%;
         }
@@ -30,6 +33,7 @@
     <table>
         <tr>
             <th>Scientific Name</th>
+            <!-- <th>Arabic Name</th> -->
             <th>Calculation (Solar Time)</th>
             <th>Solar Time</th>
             <th>Local Standard Time</th>
@@ -65,12 +69,29 @@
             <td id="dusk-local"></td>
         </tr>
     </table>
-
-    <!-- Longitude: <input id="longitude" type="number" name="longitude" value="0" step="0.000001"/>
-    Latitude: <input id="latitude" type="number" name="latitude" value="0" step="0.000001"/>
-    Standard Meridian: <input id="meridian" type="number" name="meridian" value="-75" step="1"/>
-    Day Number: <input id="meridian" type="number" name="meridian" value="-75" step="1"/>
-    Day Light Savings Offset: <input id="dls" type="number" name="dls" value="1" step="1" max="1" min="0"/> -->
+    Longitude: <input id="longitude" type="number" name="longitude" value="-79.21" step="0.01" />
+    Latitude: <input id="latitude" type="number" name="latitude" value="43.74" step="0.01" />
+    <!-- Standard Meridian: <input id="meridian" type="number" name="meridian" value="-75" step="15" max="180" min="-180"/> -->
+    Day Number: <input id="day-number" type="number" name="day-number" value="1" step="1" max="366" min="1" />
+    Day Light Savings Offset: <input id="dls" type="number" name="dls" value="0" step="1" max="1" min="0" />
+    Hanafi: <input id="hanafi" type="checkbox" name="hanafi" checked />
+    <table>
+        <tr>
+            <th>Place</th>
+            <th>Longitude</th>
+            <th>Latitude</th>
+        </tr>
+        <tr>
+            <td>Bahen Prayer Room</td>
+            <td>43.659232575289096</td>
+            <td>-79.3973608360875</td>
+        </tr>
+        <tr>
+            <td>Scarborough Village</td>
+            <td>43.738861539070605</td>
+            <td>-79.2171085531189</td>
+        </tr>
+    </table>
 </body>
 
 </html>
