@@ -102,8 +102,8 @@ function update() {
     var afternoon_solar = hour(solar_time_2(arccot(1 + hanafi + cot(theta(12)))));
     var afternoon_local = hour(local_time(solar_time_2(arccot(1 + hanafi + cot(theta(12))))));
 
-    var sunset_solar = hour(solar_time_2(0));
-    var sunset_local = hour(local_time(solar_time_2(0)));
+    var sunset_solar = hour(solar_time_2(-0.8333));
+    var sunset_local = hour(local_time(solar_time_2(-0.8333)));
 
     var dusk_solar = hour(solar_time_2(-15));
     var dusk_local = hour(local_time(solar_time_2(-15)));
