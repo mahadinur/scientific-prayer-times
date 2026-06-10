@@ -35,37 +35,37 @@
             <th>Scientific Name</th>
             <!-- <th>Arabic Name</th> -->
             <th>Calculation (Solar Time)</th>
-            <th>Solar Time</th>
+            <!-- <th>Solar Time</th> -->
             <th>Local Standard Time</th>
         </tr>
         <tr>
             <td>Astronomical Dawn</td>
             <td>t(-15°)</td>
-            <td id="dawn-solar"></td>
+            <!-- <td id="dawn-solar"></td> -->
             <td id="dawn-local"></td>
         </tr>
         <tr>
             <td>Solar Noon</td>
             <td>12 hr</td>
-            <td id="noon-solar"></td>
+            <!-- <td id="noon-solar"></td> -->
             <td id="noon-local"></td>
         </tr>
         <tr>
             <td>Afternoon</td>
             <td>t(arccot(2 + cot(θ(12 hr))))</td>
-            <td id="afternoon-solar"></td>
+            <!-- <td id="afternoon-solar"></td> -->
             <td id="afternoon-local"></td>
         </tr>
         <tr>
             <td>Sunset</td>
             <td>t(-0.8333°)</td>
-            <td id="sunset-solar"></td>
+            <!-- <td id="sunset-solar"></td> -->
             <td id="sunset-local"></td>
         </tr>
         <tr>
             <td>Astronomical Dusk</td>
             <td>t(-15°)</td>
-            <td id="dusk-solar"></td>
+            <!-- <td id="dusk-solar"></td> -->
             <td id="dusk-local"></td>
         </tr>
     </table>
@@ -73,13 +73,13 @@
     Latitude: <input id="latitude" type="number" name="latitude" value="43.74" step="0.01" />
     <!-- Standard Meridian: <input id="meridian" type="number" name="meridian" value="-75" step="15" max="180" min="-180"/> -->
     Day Number: <input id="day-number" type="number" name="day-number" value="1" step="1" max="366" min="1" />
-    Day Light Savings Offset: <input id="dls" type="number" name="dls" value="0" step="1" max="1" min="0" />
+    Day Light Savings Offset: <input id="dls" type="number" name="dls" value="1" step="1" max="1" min="0" />
     Hanafi: <input id="hanafi" type="checkbox" name="hanafi" checked />
     <table>
         <tr>
             <th>Place</th>
-            <th>Longitude</th>
             <th>Latitude</th>
+            <th>Longitude</th>
         </tr>
         <tr>
             <td>Bahen Prayer Room</td>

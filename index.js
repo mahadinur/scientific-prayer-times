@@ -108,19 +108,19 @@ function update() {
     var dusk_solar = hour(solar_time_2(-15));
     var dusk_local = hour(local_time(solar_time_2(-15)));
 
-    document.getElementById("dawn-solar").textContent = dawn_solar;
+    // document.getElementById("dawn-solar").textContent = dawn_solar;
     document.getElementById("dawn-local").textContent = dawn_local;
 
-    document.getElementById("noon-solar").textContent = noon_solar;
+    // document.getElementById("noon-solar").textContent = noon_solar;
     document.getElementById("noon-local").textContent = noon_local;
 
-    document.getElementById("afternoon-solar").textContent = afternoon_solar;
+    // document.getElementById("afternoon-solar").textContent = afternoon_solar;
     document.getElementById("afternoon-local").textContent = afternoon_local;
 
-    document.getElementById("sunset-solar").textContent = sunset_solar;
+    // document.getElementById("sunset-solar").textContent = sunset_solar;
     document.getElementById("sunset-local").textContent = sunset_local;
 
-    document.getElementById("dusk-solar").textContent = dusk_solar;
+    // document.getElementById("dusk-solar").textContent = dusk_solar;
     document.getElementById("dusk-local").textContent = dusk_local;
 }
 
